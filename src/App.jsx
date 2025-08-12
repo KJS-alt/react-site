@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Routes } from "react-router-dom";
 import { Route } from "react-router-dom";
 // import { useState } from "react";
 import "./App.css";
@@ -13,14 +13,14 @@ function App() {
   return (
     <>
       <h1>과제방</h1>
-      <BrowserRouter>
+      <Router>
         <Routes>
           <Route path="/react-site/" element={<Layout />} />
           <Route index element={<Home />} />
           <Route path="/react-site/login" element={<Login />} />
           <Route path="/react-site/work1" element={<Work1 />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
     </>
   );
 }
