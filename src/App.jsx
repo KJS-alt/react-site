@@ -13,14 +13,14 @@ function App() {
   return (
     <>
       <h1>과제방</h1>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/react-site/" element={<Layout />} />
           <Route index element={<Home />} />
           <Route path="/react-site/login" element={<Login />} />
           <Route path="/react-site/work1" element={<Work1 />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
