@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <h1>과제방</h1>
+      <h1>과제방 : 김지수</h1>
       <Router>
         <Routes>
           <Route path="/react-site/" element={<Layout />} />
