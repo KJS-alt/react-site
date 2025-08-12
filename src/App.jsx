@@ -5,6 +5,7 @@ import "./App.css";
 import Login from "./compo/Login";
 import Home from "./compo/Home";
 import Layout from "./compo/Layout";
+import Work1 from "./compo/Work1"
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -17,7 +18,7 @@ function App() {
           <Route path="/react-site/" element={<Layout />} />
           <Route index element={<Home />} />
           <Route path="/react-site/login" element={<Login />} />
-          <Route path="/react-site/work1" element={<work1 />} />
+          <Route path="/react-site/work1" element={<Work1 />} />
         </Routes>
       </BrowserRouter>
     </>
