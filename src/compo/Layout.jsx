@@ -1,9 +1,19 @@
 import { Link, Outlet } from "react-router-dom";
+import "./css/Layout.css"
 
 function Layout() {
   return (
     <div>
-      <h2>홈 페이지</h2>
+      <h2>REACT</h2>
+      <nav>
+        <div class="tab-navigation">
+          <a href="https://kjs-alt.github.io/html2507/" class="tab-link">HTML</a>
+          <a href="https://kjs-alt.github.io/js2507/" class="tab-link">JS</a>
+          <a href="https://kjs-alt.github.io/test2508/" class="tab-link">TEST</a>
+          <a href="https://kjs-alt.github.io/react-site/" class="tab-link">REACT</a>
+        </div>
+      </nav>
+
       <nav>
         <ul>
           <li>
