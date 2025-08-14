@@ -7,6 +7,7 @@ import Home from "./compo/Home";
 import Layout from "./compo/Layout";
 import Work1 from "./compo_work/work1/Work1"
 import Work2 from "./compo_work/work2/Work2"
+import Work3 from "./compo_work/work3/Work3"
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
           <Route path="/react-site/login" element={<Login />} />
           <Route path="/react-site/work1" element={<Work1 />} />
           <Route path="/react-site/work2" element={<Work2 />} />
+          <Route path="/react-site/work3" element={<Work3 />} />
         </Routes>
       </Router>
     </>

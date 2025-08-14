@@ -28,6 +28,9 @@ function Layout() {
           <li>
             <Link to="/react-site/work2">Work2_0813</Link>
           </li>
+          <li>
+            <Link to="/react-site/work3">Work3_0814</Link>
+          </li>
 
         </ul>
       </nav>
