@@ -20,11 +20,11 @@ function App() {
         <MainContent>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="login" element={<Login />} />
-            <Route path="work1" element={<Work1 />} />
-            <Route path="work2" element={<Work2 />} />
-            <Route path="work3" element={<Work3 />} />
-            <Route path="work4/*" element={<Work4 />} />
+            <Route path="/react-site/login" element={<Login />} />
+            <Route path="/react-site/work1" element={<Work1 />} />
+            <Route path="/react-site/work2" element={<Work2 />} />
+            <Route path="/react-site/work3" element={<Work3 />} />
+            <Route path="/react-site/work4/*" element={<Work4 />} />
           </Routes>
         </MainContent>
         {/* <Footer /> */}

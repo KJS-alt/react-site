@@ -20,19 +20,19 @@ const Nav = () => {
             <Link to="/">홈</Link>
           </li>
           <li>
-            <Link to="/login">Login</Link>
+            <Link to="/react-site/login">Login</Link>
           </li>
           <li>
-            <Link to="/work1">Work1_0812</Link>
+            <Link to="/react-site/work1">Work1_0812</Link>
           </li>
           <li>
-            <Link to="/work2">Work2_0813</Link>
+            <Link to="/react-site/work2">Work2_0813</Link>
           </li>
           <li>
-            <Link to="/work3">Work3_0814</Link>
+            <Link to="/react-site/work3">Work3_0814</Link>
           </li>
           <li>
-            <Link to="/work4">소플의 미니 블로그</Link>
+            <Link to="/react-site/work4">소플의 미니 블로그</Link>
           </li>
         </ul>
       </nav>
