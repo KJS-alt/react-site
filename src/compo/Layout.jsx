@@ -6,7 +6,7 @@ function Layout() {
     <div>
       <h2>REACT</h2>
       <nav>
-        <div class="tab-navigation">
+        <div className="tab-navigation">
           <a href="https://kjs-alt.github.io/html2507/" class="tab-link">HTML</a>
           <a href="https://kjs-alt.github.io/js2507/" class="tab-link">JS</a>
           <a href="https://kjs-alt.github.io/test2508/" class="tab-link">TEST</a>
@@ -30,6 +30,9 @@ function Layout() {
           </li>
           <li>
             <Link to="/react-site/work3">Work3_0814</Link>
+          </li>
+          <li>
+            <Link to="/react-site/work4">소플의 미니 블로그</Link>
           </li>
 
         </ul>
