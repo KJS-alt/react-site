@@ -31,14 +31,14 @@ function MainPage(props) {
                 <Button
                     title='글 작성하기'
                     onClick={() => {
-                        navigate('/react-site/work4/post-write');
+                        navigate('post-write');
                     }}
                 />
 
                 <PostList
                     posts={data}
                     onClickItem={(item) => {
-                        navigate(`/react-site/work4/post/${item.id}`);
+                        navigate(`post/${item.id}`);
                     }}
                 />
             </Container>

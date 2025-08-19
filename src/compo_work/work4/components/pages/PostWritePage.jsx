@@ -50,7 +50,7 @@ function PostWritePage(props) {
                 <Button
                     title='글 작성하기'
                     onClick={() => {
-                        navigate('/react-site/work4');
+                        navigate('/work4');
                     }}
                 />
             </Container>
