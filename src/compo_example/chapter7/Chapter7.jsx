@@ -16,6 +16,9 @@ function Chapter7() {
       <hr />
       <Ref />
       <hr /> */}
+      <h2 style={{ fontWeight: 'bold', border: '1px solid black' }}>
+        Hook 사용법 (useState, useEffect, useRef)
+      </h2>
       <Accommodate />
     </div>
   )
